@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Proyecto Semestral</title>
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+ </head>
+ <body>
+ 	
+ 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+ 		<h1 class="navbar-text">Do</h1>		
+ 	</nav>
+
+ 	<main id="body" class="container-fluid" style="background-color: #e0ecff">
+ 		
+ 		<div class="row text-justify">
+ 			
+ 			<aside class="col-md-2 mt-4">
+	 			
+	 			<div> 				
+	 				<ul class="list-group">
+						<li class="list-group-item"><i class="fas fa-th-large"></i> Todos</li>
+						<li class="list-group-item"><i class="fas fa-calendar-check"></i> Hoy</li>
+						<li class="list-group-item"><i class="fas fa-star"></i> Importantes</li>
+						<li class="list-group-item"><i class="fas fa-clock"></i> Calendarizados</li>
+						<li class="list-group-item"><i class="fas fa-check-circle"></i> Hechos</li>
+					</ul>
+	 			</div>
+
+	 			<hr>
+
+	 			<div>
+	 				<div class="btn-group" role="group">
+					    <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      Trabajo
+					    </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					    </div>
+					</div>
+	 				<ul class="list-group mt-4">
+	 					<li class="list-group-item"><i class="far fa-circle" style="color: red"></i> Trabajo</li>
+	 					<li class="list-group-item"><i class="far fa-circle" style="color: green"></i> Negocio</li>
+	 					<li class="list-group-item"><i class="far fa-circle" style="color: yellow"></i> Investigaciones</li>
+	 				</ul>
+	 			</div>
+	 			<hr>
+	 			<div>
+	 				<div class="btn-group" role="group">
+					    <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      Personal
+					    </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					    </div>
+					</div>
+	 			</div>
+				<div>
+					<center><button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#ModalNuevo">+ Tarea</button></center>
+				</div>
+	 		</aside>
+
+
+	 		<section id="contenido" class="col-md-9 mt-5 ml-4">
+	 			
+	 			<div class="row">
+	 				
+	 				<div id="centro" class="col-md-8">
+
+						<div id="hoy" class="row">
+
+							<div class="col-md-1 mb-4">
+								<h4><strong>Hoy</strong></h4>
+							</div>
+
+							<div class="col-md-10 mb-4">
+								<p><small>19.Febrero.2018</small></p>	
+							</div>
+
+							<div class="col-md-1 mb-4">
+								<button type="button" class="btn btn-outline-light"><i class="fas fa-plus-circle"></i></button>
+							</div>
+
+						</div>
+
+						<div id="tareas1" class="row">
+
+							<div id="tarjeta1" class="card col-md-6 mb-4">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-11 mb-5">
+											<i class="far fa-dot-circle"></i>
+										</div>
+										<div class="col-md-1 mb-5">
+											<i class="fas fa-ellipsis-v"></i>
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-md-10">
+											<p><small>1:00 pm</small><br>
+											Hacer trabajo.<br>								
+											Estimación para el cliente.</p>
+										</div>
+									</div>						
+								</div>
+							</div>
+							
+							<div id="tarjeta2" class="card col-md-6 mb-4">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-11 mb-5">
+											<i class="far fa-dot-circle"></i>
+										</div>
+										<div class="col-md-1 mb-5">
+											<i class="fas fa-ellipsis-v"></i>
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-md-10">
+											<p><small>1:00 pm</small><br>
+											Hacer trabajo.<br>								
+											Estimación para el cliente.</p>
+										</div>
+									</div>							
+								</div>
+							</div>
+						</div>
+											
+						
+						<div id="tareas2" class="row">
+
+							<div id="tarjeta3" class="card col-md-6 mb-4">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-11 mb-5">
+											<i class="far fa-dot-circle"></i>
+										</div>
+										<div class="col-md-1 mb-5">
+											<i class="fas fa-ellipsis-v"></i>
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-md-10">
+											<p><small>1:00 pm</small><br>
+											Hacer trabajo.<br>								
+											Estimación para el cliente.</p>
+										</div>
+									</div>						
+								</div>
+							</div>
+							
+							<div id="tarjeta4" class="card col-md-6 mb-4">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-11 mb-5">
+											<i class="far fa-dot-circle"></i>
+										</div>
+										<div class="col-md-1 mb-5">
+											<i class="fas fa-ellipsis-v"></i>
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-md-10">
+											<p><small>1:00 pm</small><br>
+											Hacer trabajo.<br>								
+											Estimación para el cliente.</p>
+										</div>
+									</div>							
+								</div>
+							</div>
+						</div>
+
+						<div id="tareas3" class="row">
+
+							<div id="tarjeta5" class="card col-md-6 mb-4">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-11 mb-5">
+											<i class="far fa-dot-circle"></i>
+										</div>
+										<div class="col-md-1 mb-5">
+											<i class="fas fa-ellipsis-v"></i>
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-md-10">
+											<p><small>1:00 pm</small><br>
+											Hacer trabajo.<br>								
+											Estimación para el cliente.</p>
+										</div>
+									</div>						
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+	 				<div id="derecha" class="col-md-4">
+	 					
+
+	 						<div class="row">
+	 							<div class="col-md-3 mb-4">
+		 							<h4><strong>Mañana</strong></h4>
+		 						</div>
+
+		 						<div class="col-md-8 mb-4">
+		 							<small>20.Febrero.2018</small>
+		 						</div>
+	 						</div>
+
+	 						
+			 				
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+							<br>
+
+							<div class="row">
+	 							<div class="col-md-6 mb-4">
+		 							<h4><strong>Pasado mañana</strong></h4>
+		 						</div>
+
+		 						<div class="col-md-6 mb-4">
+		 							<small>21.Febrero.2018</small>
+		 						</div>
+	 						</div>
+			 				
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>
+			 				<li class="list-group-item"><i class="far fa-circle" style="color: black"></i><small> 7:00 am</small><strong> Hacer alguna cosa importante.</strong></li>	
+			 			
+	 				</div> 			
+	 			
+	 			</div>
+	 			
+	 		</section>
+
+	 		<div class="modal fade" id="ModalNuevo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+				    <div class="modal-content">
+					    <div class="modal-header">
+					        <h5 class="modal-title" id="ModalNuevoLabel">Nueva Tarea</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          	<span aria-hidden="true">&times;</span>
+					        </button>
+					    </div>
+					    <div class="modal-body">
+					        <form id="NuevoElemento">
+					        	<div class="col-md-8">
+					        		<div class="form-group">
+									    <label for="exampleInputEmail1">Títtulo</label>
+									    <input name="nombre" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba el título">							    
+									</div>
+									<div class="form-group">
+									    <label for="exampleInputPassword1">Descripción</label>
+									    <textarea name="correo" type="text"class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba la descripción"></textarea>
+									</div> 
+									<div class="form-row">
+									    <div class="col">
+									    	<label for="exampleInputDate1">Fecha</label>
+									      	<input type="text" class="form-control" placeholder="Fecha">
+									    </div>
+									    <div class="col">
+									    	<label for="exampleInputHour1">Hora</label>
+									      	<input type="text" class="form-control" placeholder="Hora">
+									    </div>
+									</div>
+					        	</div>
+					        	<div class="col-md-4">
+					        		<div class="form-group">
+									    <label for="exampleFormControlSelect1">Clasificación</label>
+									    <select class="form-control" id="exampleFormControlSelect1" placeholder="Elija el grupo">
+									      <option>1</option>
+									      <option>2</option>
+									      <option>3</option>
+									      <option>4</option>
+									      <option>5</option>
+									    </select>
+									</div>
+					        	</div>
+									  
+							</form>
+					    </div>
+					    <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+					        <button id="btnGuardar" type="button" class="btn btn-primary">Guardar</button>
+					    </div>
+				    </div>
+				</div>
+			</div>
+ 		</div>
+ 		
+ 	</main>
+
+
+
+ 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+ 	<script type="text/javascript" src="bower_components/popper.js/dist/popper.min.js"></script>
+ 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+ </body>
+ </html> 
